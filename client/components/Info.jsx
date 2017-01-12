@@ -15,9 +15,7 @@ getInitialState() {
                 <div className="row">
                     <div className="col-md-12">
                         <div id="info">
-                            <h5>This is Info Block</h5>
-                              <p>{this.state.cities[0].info}</p>
-                            <button type="button" className="btn btn-primary btn-block my-btn">Learn more..</button>
+                          <p>{this.state.cities[0].info}</p>
                         </div>
 
                     </div>
