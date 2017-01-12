@@ -1,8 +1,37 @@
 {
- [
-   {"id": "Tonga", "food": "taro", "weather": "sunny", "currency": "pa'anga", "hello": "Mālō e lelei"},
-   {"id": "Paris", "food": "croissant", "weather": "cloudy", "currency": "euro", "hello": "bonjour"},
-{"id": "New York", "food": "Bagel", "weather": "snowy", "currency": "dollars", "hello": "how you doin'"},
-   {"id": "Tokyo", "food": "sushi", "weather": "rainy", "currency": "yen", "hello": "konnichiwa'"}
+"city": [
+    {
+    "id": "Tonga",
+    "food": "taro",
+    "weather": "sunny",
+    "currency": "pa'anga",
+    "hello": "Mālō e lelei",
+    "city_img": ""
+    },
+
+   {
+    "id": "Paris",
+    "food": "croissant",
+    "weather": "cloudy",
+    "currency": "euro",
+    "hello": "bonjour",
+    "city_img": ""
+  },
+   {
+    "id": "New York",
+    "food": "Bagel",
+    "weather": "snowy",
+    "currency": "dollars",
+    "hello": "how you doin'",
+    "city_img": ""
+    },
+   {
+     "id": "Tokyo",
+     "food": "sushi",
+     "weather": "rainy",
+     "currency": "yen",
+     "hello": "konnichiwa'",
+     "city_img": ""
+   }
  ]
 }
