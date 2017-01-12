@@ -1,0 +1,21 @@
+.wide {
+  width:100%;
+  height:250px;
+  background-image:url('https://goo.gl/PZOMbg');
+  background-size: cover;
+}
+
+#info {
+  margin-top: 30px;
+  height: 300px;
+  background-color: #c2e7ff;
+}
+
+.my-btn  {
+  width: 40%;
+  margin: 0 auto;
+}
+
+img {
+  margin: 10px;
+}
