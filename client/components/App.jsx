@@ -4,6 +4,7 @@ import Header from './Header'
 import Question from './Question'
 import Cities from './Cities'
 import Info from './Info'
+import API from './API'
 import Footer from './Footer'
 
 export default React.createClass({
@@ -14,6 +15,7 @@ export default React.createClass({
         <Question />
         <Cities />
         <Info />
+        <API />
         <Footer />
       </div>
     )

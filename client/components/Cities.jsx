@@ -7,9 +7,10 @@ export default React.createClass({
           <div className="row">
               <div className="col-md-12">
       <h5>This is Cities</h5>
-      <img src='http://placekitten.com/g/200/200' />
-      <img src='http://placekitten.com/g/200/200' />
-      <img src='http://placekitten.com/g/200/200' />
+      <img src='http://placekitten.com/g/250/250' />
+      <img src='http://placekitten.com/g/250/250' />
+      <img src='http://placekitten.com/g/250/250' />
+      <img src='http://placekitten.com/g/250/250' />      
       </div>
       </div>
       </div>

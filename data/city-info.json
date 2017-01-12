@@ -1,0 +1,8 @@
+{
+ [
+   {"id": "Tonga", "food": "taro", "weather": "sunny", "currency": "pa'anga", "hello": "Mālō e lelei"},
+   {"id": "Paris", "food": "croissant", "weather": "cloudy", "currency": "euro", "hello": "bonjour"},
+{"id": "New York", "food": "Bagel", "weather": "snowy", "currency": "dollars", "hello": "how you doin'"},
+   {"id": "Tokyo", "food": "sushi", "weather": "rainy", "currency": "yen", "hello": "konnichiwa'"}
+ ]
+}
