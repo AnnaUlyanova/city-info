@@ -1,12 +1,14 @@
-{
-"city": [
+export default {
+
+"cities": [
     {
     "id": "Tonga",
     "food": "taro",
     "weather": "sunny",
     "currency": "pa'anga",
     "hello": "Mālō e lelei",
-    "city_img": ""
+    "cityImage": "cityimage",
+    "info":"Tonga is a place"
     },
 
    {
@@ -15,7 +17,7 @@
     "weather": "cloudy",
     "currency": "euro",
     "hello": "bonjour",
-    "city_img": ""
+    "cityImage": ""
   },
    {
     "id": "New York",
@@ -23,7 +25,7 @@
     "weather": "snowy",
     "currency": "dollars",
     "hello": "how you doin'",
-    "city_img": ""
+    "cityImage": ""
     },
    {
      "id": "Tokyo",
@@ -31,7 +33,17 @@
      "weather": "rainy",
      "currency": "yen",
      "hello": "konnichiwa'",
-     "city_img": ""
+     "cityImage": ""
    }
  ]
 }
+
+
+// <div className="row">
+//     <div className="col-md-12">
+//     <h2>{this.state.cities[0].id}</h2>
+//     <h2>{this.state.cities[1].id}</h2>
+//     <h2>{this.state.cities[2].id}</h2>
+//     <h2>{this.state.cities[3].id}</h2>
+//     </div>
+// </div>
