@@ -21,7 +21,7 @@ getInitialState() {
       <div className='container-fluid'>
         <Header />
         <Question changeOption={this.changeOption}/>
-        <Cities cityData={cities.cities} activeQ={this.state.question} />
+<Cities cityData={cities.cities} activeQ={this.state.question} />
       </div>
     )
   },

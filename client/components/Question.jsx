@@ -20,7 +20,7 @@ export default React.createClass({
                                 </select>
                               </div>
 
-                            like?</h2>
+                              like?</h2>
 
 
                     </div>
