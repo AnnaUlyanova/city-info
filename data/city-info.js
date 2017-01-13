@@ -7,7 +7,7 @@ export default {
     "weather": "sunny",
     "currency": "pa'anga",
     "hello": "Mālō e lelei",
-    "cityImage": "cityimage",
+    "cityImage": 'http://blog.bravofly.com.tr/wp-content/uploads/sites/13/2015/07/5reasons_moorea_island_french_polynesia_south_pacific-1493641.jpg',
     "info":"Tonga is a place"
     },
 
@@ -17,7 +17,7 @@ export default {
     "weather": "cloudy",
     "currency": "euro",
     "hello": "bonjour",
-    "cityImage": ""
+    "cityImage": 'http://www.parisattitude.com/images/monuments.jpg'
   },
    {
     "id": "New York",
@@ -25,7 +25,7 @@ export default {
     "weather": "snowy",
     "currency": "dollars",
     "hello": "how you doin'",
-    "cityImage": ""
+    "cityImage": 'https://media-cdn.tripadvisor.com/media/photo-s/03/9b/2d/f2/new-york-city.jpg'
     },
    {
      "id": "Tokyo",
@@ -33,7 +33,7 @@ export default {
      "weather": "rainy",
      "currency": "yen",
      "hello": "konnichiwa'",
-     "cityImage": ""
+     "cityImage": 'https://www.omm.com/~/media/images/site/locations/tokyo_780x520px.ashx'
    }
  ]
 }

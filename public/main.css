@@ -19,3 +19,22 @@
 img {
   margin: 10px;
 }
+
+.select {
+  display: inline;
+}
+
+.question {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.desc {
+  color: purple;
+  text-align: center;
+  font-style: italic;
+}
+
+h2 {
+  text-align: center;
+}
