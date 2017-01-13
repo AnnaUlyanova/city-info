@@ -3,25 +3,36 @@ import React from 'react'
 import Header from './Header'
 import Question from './Question'
 import Cities from './Cities'
-import Info from './Info'
-import API from './API'
-import Footer from './Footer'
+import * as api from './api.js'
+import WeatherInfo from './WeatherInfo'
 import cities from '../../data/city-info'
 
 export default React.createClass({
 
-getInitialState() {
-  return {
-    question: null
-  }
-},
+  getInitialState () {
+    return {
+      dataWeather: [],
+      question: null
+    }
+  },
+
+  componentDidMount () {
+    api.getWeather(this.renderDataWeather)
+  },
+
+  renderDataWeather (err, dataWeather) {
+    this.setState({
+      dataWeather: dataWeather
+    })
+  },
 
   render() {
     return (
       <div className='container-fluid'>
         <Header />
         <Question changeOption={this.changeOption}/>
-<Cities cityData={cities.cities} activeQ={this.state.question} />
+        <Cities cityData={cities.cities} activeQ={this.state.question} />
+        <WeatherInfo dataWeather={this.state.dataWeather} />
       </div>
     )
   },
@@ -30,8 +41,6 @@ getInitialState() {
     this.setState({
       question: event.target.value
     })
-console.log(event.target.value)
-
   }
 
 })
